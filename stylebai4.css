@@ -1,0 +1,17 @@
+/* Shared class for both images */
+.avatar {
+    display: block;
+    margin: 20px;
+}
+
+/* First image: both 'avatar' and 'proportioned' classes */
+.avatar.proportioned {
+    width: 300px;
+    height: auto; /* Maintains square proportions */
+}
+
+/* Second image: both 'avatar' and 'distorted' classes */
+.avatar.distorted {
+    width: 200px;
+    height: 400px; /* Makes height twice the width, distorting the image */
+}
